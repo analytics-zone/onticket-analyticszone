@@ -1,7 +1,22 @@
 ---
 ---
 
-<meta http-equiv="refresh" content="0;url=/ca/" />
-<script>
-  window.location.pathname = "/ca/";
+<script is:inline>
+  (function() {
+    const userLang = navigator.language || navigator.userLanguage || 'en';
+    const langCode = userLang.toLowerCase().substring(0, 2);
+    
+    if (langCode === 'ca') {
+      window.location.replace('/ca/');
+    } else if (langCode === 'es') {
+      window.location.replace('/es/');
+    } else {
+      window.location.replace('/en/');
+    }
+  })();
 </script>
+
+<!-- Fallback for users with JS disabled -->
+<noscript>
+  <meta http-equiv="refresh" content="0;url=/en/" />
+</noscript>
