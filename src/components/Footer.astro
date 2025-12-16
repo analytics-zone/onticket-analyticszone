@@ -2,11 +2,12 @@
 import { LANGUAGES } from '../i18n/translations';
 
 interface Props {
-  lang: 'ca' | 'es' | 'en';
+  lang?: 'ca' | 'es' | 'en';
 }
 
-const { lang } = Astro.props;
-const t = LANGUAGES[lang].footer;
+const { lang = 'ca' } = Astro.props;
+const t = LANGUAGES[lang]?.footer || LANGUAGES['ca'].footer;
+
 const currentYear = new Date().getFullYear();
 ---
 

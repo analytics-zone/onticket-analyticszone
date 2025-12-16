@@ -2,11 +2,12 @@
 import { LANGUAGES } from '../i18n/translations';
 
 interface Props {
-  lang: 'ca' | 'es' | 'en';
+  lang?: 'ca' | 'es' | 'en';
 }
 
-const { lang } = Astro.props;
-const t = LANGUAGES[lang].trust;
+const { lang = 'ca' } = Astro.props;
+const t = LANGUAGES[lang]?.trust || LANGUAGES['ca'].trust;
+
 ---
 <section id="trust" class="py-16 bg-surface">
   <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">

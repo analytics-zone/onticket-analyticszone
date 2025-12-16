@@ -2,11 +2,12 @@
 import { LANGUAGES } from '../i18n/translations';
 
 interface Props {
-  lang: 'ca' | 'es' | 'en';
+  lang?: 'ca' | 'es' | 'en';
 }
 
-const { lang } = Astro.props;
-const t = LANGUAGES[lang].nav;
+const { lang = 'ca' } = Astro.props;
+const t = LANGUAGES[lang]?.nav || LANGUAGES['ca'].nav;
+
 ---
 <nav class="bg-white/80 backdrop-blur-md sticky top-0 z-50 border-b border-gray-100">
   <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
