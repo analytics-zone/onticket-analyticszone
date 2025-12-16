@@ -1,0 +1,58 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import Navbar from '../../components/Navbar.astro';
+import Footer from '../../components/Footer.astro';
+---
+
+<Layout title="Política de Privacitat - onticket">
+  <Navbar />
+  <main class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
+    <h1 class="text-3xl font-extrabold text-gray-900 mb-8">Política de Privacitat</h1>
+    
+    <div class="prose prose-blue max-w-none text-gray-600">
+      <p class="mb-4">Darrera actualització: 16 de Desembre de 2025</p>
+
+      <h2 class="text-xl font-bold text-gray-900 mt-8 mb-4">1. Introducció</h2>
+      <p>
+        A <strong>onticket</strong>, la teva privacitat és la nostra prioritat. Aquesta política explica com tractem la teva informació quan utilitzes la nostra aplicació mòbil i el nostre lloc web.
+      </p>
+
+      <h2 class="text-xl font-bold text-gray-900 mt-8 mb-4">2. Dades que Recollim</h2>
+      <p>Per oferir-te el servei de control de despeses, necessitem tractar les següents dades:</p>
+      <ul class="list-disc pl-5 space-y-2 mb-4">
+        <li><strong>Informació del Compte:</strong> Correu electrònic i contrasenya (encuprtada) per a l'autenticació segura mitjançant Firebase Auth.</li>
+        <li><strong>Dades de Despeses:</strong> Títols, imports, dates, categories i imatges (tiquets) que pugis voluntàriament.</li>
+        <li><strong>Dades Tècniques:</strong> Informació bàsica del dispositiu per a la gestió d'errors i rendiment.</li>
+      </ul>
+
+      <h2 class="text-xl font-bold text-gray-900 mt-8 mb-4">3. Com Utilitzem les Dades</h2>
+      <p>Utilitzem la teva informació exclusivament per a:</p>
+      <ul class="list-disc pl-5 space-y-2 mb-4">
+        <li>Proporcionar-te la funcionalitat de l'app (guardar i visualitzar les teves despeses).</li>
+        <li>Sincronitzar les dades entre els teus dispositius al núvol.</li>
+        <li>Millorar l'experiència d'usuari i corregir errors.</li>
+      </ul>
+      <p><strong>NO venem ni compartim les teves dades personals amb tercers per a fins publicitaris.</strong></p>
+
+      <h2 class="text-xl font-bold text-gray-900 mt-8 mb-4">4. Seguretat de les Dades</h2>
+      <p>
+        Les teves dades s'emmagatzemen de forma segura als servidors de <strong>Google Firebase</strong>. Utilitzem connexions xifrades (SSL/TLS) per a totes les comunicacions entre el teu dispositiu i el servidor.
+      </p>
+
+      <h2 class="text-xl font-bold text-gray-900 mt-8 mb-4">5. Els Teus Drets</h2>
+      <p>Tens dret a:</p>
+      <ul class="list-disc pl-5 space-y-2 mb-4">
+        <li>Accedir a les teves dades.</li>
+        <li>Rectificar dades incorrectes.</li>
+        <li>Eliminar el teu compte i totes les teves dades directament des de l'app (Configuració > Eliminar Compte).</li>
+        <li>Exportar les teves dades en formats estàndard (CSV/Excel).</li>
+      </ul>
+
+      <h2 class="text-xl font-bold text-gray-900 mt-8 mb-4">6. Contacte</h2>
+      <p>
+        Si tens dubtes sobre aquesta política, pots contactar amb nosaltres a: <a href="mailto:analyticszone@onmedic.org" class="text-primary hover:underline">analyticszone@onmedic.org</a>.
+      </p>
+    </div>
+  </main>
+  <Footer />
+</Layout>
