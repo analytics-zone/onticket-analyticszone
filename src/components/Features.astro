@@ -1,14 +1,22 @@
 ---
+import { LANGUAGES } from '../i18n/translations';
+
+interface Props {
+  lang: 'ca' | 'es' | 'en';
+}
+
+const { lang } = Astro.props;
+const t = LANGUAGES[lang].features;
 ---
 <section id="features" class="py-20 bg-white">
   <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
     <div class="text-center">
-      <h2 class="text-base text-primary font-semibold tracking-wide uppercase">Funcionalitats</h2>
+      <h2 class="text-base text-primary font-semibold tracking-wide uppercase">{t.sectionTitle}</h2>
       <p class="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">
-        Tot el que necessites per estalviar
+        {t.mainTitle}
       </p>
       <p class="mt-4 max-w-2xl text-xl text-gray-500 mx-auto">
-        Una eina potent dissenyada per simplificar la teva vida financera diària.
+        {t.subtitle}
       </p>
     </div>
 
@@ -26,9 +34,9 @@
                   </svg>
                 </span>
               </div>
-              <h3 class="mt-8 text-lg font-medium text-gray-900 tracking-tight">Escaneig de Tiquets</h3>
+              <h3 class="mt-8 text-lg font-medium text-gray-900 tracking-tight">{t.scanTitle}</h3>
               <p class="mt-5 text-base text-gray-500">
-                Fes una foto al rebut i guarda-la. Oblida't de papers perduts i tingues-ho tot digitalitzat i accessible.
+                {t.scanDesc}
               </p>
             </div>
           </div>
@@ -45,9 +53,9 @@
                   </svg>
                 </span>
               </div>
-              <h3 class="mt-8 text-lg font-medium text-gray-900 tracking-tight">Anàlisi Visual</h3>
+              <h3 class="mt-8 text-lg font-medium text-gray-900 tracking-tight">{t.analysisTitle}</h3>
               <p class="mt-5 text-base text-gray-500">
-                Gràfics intuïtius que et mostren on van els teus diners. Entén els teus hàbits d'un cop d'ull.
+                {t.analysisDesc}
               </p>
             </div>
           </div>
@@ -64,9 +72,9 @@
                   </svg>
                 </span>
               </div>
-              <h3 class="mt-8 text-lg font-medium text-gray-900 tracking-tight">100% en el teu idioma</h3>
+              <h3 class="mt-8 text-lg font-medium text-gray-900 tracking-tight">{t.langTitle}</h3>
               <p class="mt-5 text-base text-gray-500">
-                Disponible en Català, Castellà, Euskera i Gallec. Una app feta per a tu, que parla com tu.
+                {t.langDesc}
               </p>
             </div>
           </div>

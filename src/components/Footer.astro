@@ -1,23 +1,31 @@
 ---
+import { LANGUAGES } from '../i18n/translations';
+
+interface Props {
+  lang: 'ca' | 'es' | 'en';
+}
+
+const { lang } = Astro.props;
+const t = LANGUAGES[lang].footer;
 const currentYear = new Date().getFullYear();
 ---
 
 <footer class="bg-white border-t border-gray-200">
   <div class="max-w-7xl mx-auto py-12 px-4 sm:px-6 md:flex md:items-center md:justify-between lg:px-8">
     <div class="flex justify-center space-x-6 md:order-2">
-      <a href="/ca/terms" class="text-gray-400 hover:text-gray-500">
-        Termes d'Ús
+      <a href={`/${lang}/terms`} class="text-gray-400 hover:text-gray-500">
+        {t.terms}
       </a>
-      <a href="/ca/privacy" class="text-gray-400 hover:text-gray-500">
-        Política de Privacitat
+      <a href={`/${lang}/privacy`} class="text-gray-400 hover:text-gray-500">
+        {t.privacy}
       </a>
       <a href="mailto:analyticszone@onmedic.org" class="text-gray-400 hover:text-gray-500">
-        Contacte
+        {t.contact}
       </a>
     </div>
     <div class="mt-8 md:mt-0 md:order-1">
       <p class="text-center text-base text-gray-400">
-        &copy; {currentYear} onticket. Tots els drets reservats.
+        &copy; {currentYear} onticket. {t.rights}
       </p>
     </div>
   </div>

@@ -1,11 +1,19 @@
 ---
+import { LANGUAGES } from '../i18n/translations';
+
+interface Props {
+  lang: 'ca' | 'es' | 'en';
+}
+
+const { lang } = Astro.props;
+const t = LANGUAGES[lang].trust;
 ---
 <section id="trust" class="py-16 bg-surface">
   <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
     <div class="lg:text-center mb-12">
-      <h2 class="text-base text-primary font-semibold tracking-wide uppercase">Seguretat i Privacitat</h2>
+      <h2 class="text-base text-primary font-semibold tracking-wide uppercase">{t.sectionTitle}</h2>
       <p class="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">
-        Les teves dades són teves
+        {t.mainTitle}
       </p>
     </div>
     
@@ -13,15 +21,15 @@
       <div class="pt-10 pb-12 px-6 sm:pt-16 sm:px-16 lg:py-16 lg:pr-0 xl:py-20 xl:px-20">
         <div class="lg:self-center">
           <h2 class="text-3xl font-extrabold text-gray-900 sm:text-4xl">
-            <span class="block text-primary">Encriptació Segura</span>
+            <span class="block text-primary">{t.encryptionTitle}</span>
           </h2>
           <p class="mt-4 text-lg leading-6 text-gray-500">
-            Utilitzem estàndards de seguretat avançats per protegir la teva informació financera. Les teves dades es xifren abans d'emmagatzemar-se i mai es comparteixen amb tercers per a fins publicitaris.
+            {t.encryptionDesc}
           </p>
           <ul class="mt-6 list-disc list-inside text-gray-600 space-y-2">
-            <li>Sense tracking invasiu</li>
-            <li>Dades emmagatzemades a Firebase (Google Cloud)</li>
-            <li>Tu controles la teva informació</li>
+            <li>{t.list1}</li>
+            <li>{t.list2}</li>
+            <li>{t.list3}</li>
           </ul>
         </div>
       </div>
