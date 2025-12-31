@@ -28,9 +28,14 @@ const t = LANGUAGES[lang]?.nav || LANGUAGES['ca'].nav;
             <a href="/en/" class:list={[{ 'text-primary font-bold': lang === 'en', 'hover:text-primary': lang !== 'en' }]}>EN</a>
         </div>
 
-        <a href="#" class="bg-primary hover:bg-blue-800 text-white px-5 py-2 rounded-full font-medium transition-colors shadow-lg shadow-blue-900/20">
-          {t.download}
-        </a>
+        <div class="flex items-center gap-3">
+          <a href="https://play.google.com/store/apps/details?id=com.alarno.onticket" target="_blank" rel="noopener noreferrer" class="transition-transform duration-200 hover:scale-105">
+            <img src="/badge-google-play.svg" alt="Get it on Google Play" class="h-9 drop-shadow-sm" />
+          </a>
+          <a href="https://apps.apple.com/es/app/onticket/id6478814169" target="_blank" rel="noopener noreferrer" class="transition-transform duration-200 hover:scale-105">
+            <img src="/badge-app-store.svg" alt="Download on the App Store" class="h-9 drop-shadow-sm" />
+          </a>
+        </div>
       </div>
       <!-- Mobile menu button placeholder -->
       <div class="md:hidden flex items-center">
