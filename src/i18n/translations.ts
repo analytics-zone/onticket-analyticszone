@@ -12,11 +12,11 @@ export const LANGUAGES = {
         hero: {
             titlePRE: 'Controla les teves',
             titleHighlight: 'Despeses en 10 segons',
-            subtitle: "Apunta una despesa, categoritza-la i visualitza on van els diners. Simple, ràpid i segur.",
+            subtitle: "Apunta una despesa, categoritza-la i visualitza on van els diners amb gràfics i estadístiques professionals. Simple, ràpid i segur.",
             bullets: [
-                'Foto del tiquet i arxiu automàtic',
-                'Categories i cerques ràpides',
-                'Estadístiques clares per mes'
+                'Gràfics mensuals i distribució per categories',
+                'Filtres avançats per data, categoria i persona',
+                'Exporta les dades quan ho necessitis'
             ],
             googlePlay: 'Google Play',
             appStore: 'App Store'
@@ -43,25 +43,25 @@ export const LANGUAGES = {
         features: {
             sectionTitle: 'Funcionalitats',
             mainTitle: 'Tot el que necessites, en un sol lloc',
-            subtitle: 'Fet per a la vida real: ràpid d’usar i fàcil de consultar.',
+            subtitle: "Fet per a la vida real: ràpid d'usar i fàcil de consultar.",
             scanTitle: 'Rebuts sempre a mà',
-            scanDesc: "Guarda una foto del tiquet amb cada despesa i oblida't del paper.",
-            analysisTitle: 'Visió clara del teu pressupost',
-            analysisDesc: "Totals i gràfics perquè sàpigues exactament on van els diners.",
-            langTitle: 'Llista i cerca en segons',
-            langDesc: "Troba qualsevol despesa amb filtres per data, categoria o etiqueta."
+            scanDesc: "Guarda una foto del tiquet amb cada despesa i oblida't del paper. Tot organitzat i accessible.",
+            analysisTitle: 'Gràfics i estadístiques visuals',
+            analysisDesc: "Gràfics de barres per mes, distribució per categories, totals i mitjanes. Entén on van els diners d'un cop d'ull.",
+            langTitle: 'Filtres avançats i cerca',
+            langDesc: "Filtra per data, categoria, persona o etiqueta. Ordena per import, data o categoria. Troba qualsevol despesa en segons."
         },
         highlights: {
             sectionTitle: 'Avantatges clau',
             mainTitle: 'Pensada per al teu dia a dia',
             subtitle: 'Funcions pràctiques per controlar les despeses sense esforç.',
             items: [
-                'Llista completa i vista de recents',
-                'Categories per tenir-ho tot ordenat',
-                'Fotos de rebuts associades',
-                'Totals automàtics per període',
-                'Conceptes personalitzats',
-                'Exporta quan ho necessitis'
+                'Gràfics de barres i distribució per categories',
+                'Estadístiques amb totals, mitjanes i recomptes',
+                'Filtres per data, persona, categoria i etiqueta',
+                'Fotos de tiquets associades a cada despesa',
+                'Exporta les dades en qualsevol moment',
+                'Agrupa per setmanes, mesos o anys'
             ]
         },
         trust: {
@@ -95,7 +95,7 @@ export const LANGUAGES = {
                 },
                 {
                     q: 'Com puc exportar les dades?',
-                    a: 'Pots exportar-les quan ho necessitis des de l’app.'
+                    a: 'Pots exportar totes les teves despeses des de l\'app en qualsevol moment. Ideal per portar el control a un full de càlcul o fer la comptabilitat.'
                 }
             ]
         },
@@ -108,6 +108,28 @@ export const LANGUAGES = {
             privacy: 'Política de Privacitat',
             contact: 'Contacte',
             rights: 'Tots els drets reservats.'
+        },
+        screenshots: {
+            sectionTitle: 'Mira-ho en acció',
+            mainTitle: 'Analitza, filtra i exporta',
+            subtitle: 'Eines professionals per entendre i controlar les teves despeses.',
+            items: [
+                {
+                    title: 'Llista de despeses',
+                    desc: 'Totes les despeses amb fotos de tiquets, filtres per persona i cerca ràpida.',
+                    image: '/Expenses.png'
+                },
+                {
+                    title: 'Gràfics visuals',
+                    desc: 'Gràfics de barres per mes i distribució per categories. Entén on van els diners.',
+                    image: '/Charts.png'
+                },
+                {
+                    title: 'Estadístiques completes',
+                    desc: 'Totals, mitjanes i recomptes. Agrupa per setmanes, mesos o anys.',
+                    image: '/Stats.png'
+                }
+            ]
         }
     },
     es: {
@@ -123,11 +145,11 @@ export const LANGUAGES = {
         hero: {
             titlePRE: 'Controla tus',
             titleHighlight: 'Gastos en 10 segundos',
-            subtitle: 'Anota un gasto, clasifícalo y entiende a dónde va tu dinero. Simple, rápido y seguro.',
+            subtitle: 'Anota un gasto, clasifícalo y visualiza a dónde va tu dinero con gráficos y estadísticas profesionales. Simple, rápido y seguro.',
             bullets: [
-                'Foto del ticket y archivo automático',
-                'Categorías y búsquedas rápidas',
-                'Estadísticas claras por mes'
+                'Gráficos mensuales y distribución por categorías',
+                'Filtros avanzados por fecha, categoría y persona',
+                'Exporta los datos cuando lo necesites'
             ],
             googlePlay: 'Google Play',
             appStore: 'App Store'
@@ -156,23 +178,23 @@ export const LANGUAGES = {
             mainTitle: 'Todo lo que necesitas, en un solo lugar',
             subtitle: 'Hecho para la vida real: rápido de usar y fácil de consultar.',
             scanTitle: 'Recibos siempre a mano',
-            scanDesc: 'Guarda una foto del ticket con cada gasto y olvídate del papel.',
-            analysisTitle: 'Visión clara de tu presupuesto',
-            analysisDesc: 'Totales y gráficos para saber exactamente dónde va tu dinero.',
-            langTitle: 'Lista y búsqueda en segundos',
-            langDesc: 'Encuentra cualquier gasto con filtros por fecha, categoría o etiqueta.'
+            scanDesc: 'Guarda una foto del ticket con cada gasto y olvídate del papel. Todo organizado y accesible.',
+            analysisTitle: 'Gráficos y estadísticas visuales',
+            analysisDesc: 'Gráficos de barras por mes, distribución por categorías, totales y promedios. Entiende dónde va tu dinero de un vistazo.',
+            langTitle: 'Filtros avanzados y búsqueda',
+            langDesc: 'Filtra por fecha, categoría, persona o etiqueta. Ordena por importe, fecha o categoría. Encuentra cualquier gasto en segundos.'
         },
         highlights: {
             sectionTitle: 'Ventajas clave',
             mainTitle: 'Pensada para tu día a día',
             subtitle: 'Funciones prácticas para controlar tus gastos sin esfuerzo.',
             items: [
-                'Listado completo y vista de recientes',
-                'Categorías para tenerlo todo ordenado',
-                'Fotos de tickets asociadas',
-                'Totales automáticos por periodo',
-                'Conceptos personalizados',
-                'Exporta cuando lo necesites'
+                'Gráficos de barras y distribución por categorías',
+                'Estadísticas con totales, promedios y recuentos',
+                'Filtros por fecha, persona, categoría y etiqueta',
+                'Fotos de tickets asociadas a cada gasto',
+                'Exporta los datos en cualquier momento',
+                'Agrupa por semanas, meses o años'
             ]
         },
         trust: {
@@ -206,7 +228,7 @@ export const LANGUAGES = {
                 },
                 {
                     q: '¿Cómo puedo exportar los datos?',
-                    a: 'Puedes exportarlos cuando lo necesites desde la app.'
+                    a: 'Puedes exportar todos tus gastos desde la app en cualquier momento. Ideal para llevar el control en una hoja de cálculo o hacer la contabilidad.'
                 }
             ]
         },
@@ -219,6 +241,28 @@ export const LANGUAGES = {
             privacy: 'Política de Privacidad',
             contact: 'Contacto',
             rights: 'Todos los derechos reservados.'
+        },
+        screenshots: {
+            sectionTitle: 'Míralo en acción',
+            mainTitle: 'Analiza, filtra y exporta',
+            subtitle: 'Herramientas profesionales para entender y controlar tus gastos.',
+            items: [
+                {
+                    title: 'Lista de gastos',
+                    desc: 'Todos los gastos con fotos de tickets, filtros por persona y búsqueda rápida.',
+                    image: '/Expenses.png'
+                },
+                {
+                    title: 'Gráficos visuales',
+                    desc: 'Gráficos de barras por mes y distribución por categorías. Entiende dónde va tu dinero.',
+                    image: '/Charts.png'
+                },
+                {
+                    title: 'Estadísticas completas',
+                    desc: 'Totales, promedios y recuentos. Agrupa por semanas, meses o años.',
+                    image: '/Stats.png'
+                }
+            ]
         }
     },
     en: {
@@ -234,11 +278,11 @@ export const LANGUAGES = {
         hero: {
             titlePRE: 'Control your',
             titleHighlight: 'Expenses in 10 seconds',
-            subtitle: 'Log a spend, categorize it, and see where your money goes. Simple, fast, and secure.',
+            subtitle: 'Log a spend, categorize it, and visualize where your money goes with professional charts and statistics. Simple, fast, and secure.',
             bullets: [
-                'Photo receipts attached automatically',
-                'Fast categories and search',
-                'Clear monthly stats'
+                'Monthly charts and category distribution',
+                'Advanced filters by date, category and person',
+                'Export your data whenever you need'
             ],
             googlePlay: 'Google Play',
             appStore: 'App Store'
@@ -267,23 +311,23 @@ export const LANGUAGES = {
             mainTitle: 'Everything you need, in one place',
             subtitle: 'Built for real life: fast to use and easy to review.',
             scanTitle: 'Receipts always at hand',
-            scanDesc: 'Save a photo with every expense and skip the paper clutter.',
-            analysisTitle: 'Clear budget visibility',
-            analysisDesc: 'Totals and charts to see exactly where your money goes.',
-            langTitle: 'List and search in seconds',
-            langDesc: 'Find any expense with filters by date, category, or tag.'
+            scanDesc: 'Save a photo with every expense and skip the paper clutter. Everything organized and accessible.',
+            analysisTitle: 'Visual charts and statistics',
+            analysisDesc: 'Bar charts by month, category distribution, totals and averages. Understand where your money goes at a glance.',
+            langTitle: 'Advanced filters and search',
+            langDesc: 'Filter by date, category, person, or tag. Sort by amount, date, or category. Find any expense in seconds.'
         },
         highlights: {
             sectionTitle: 'Key benefits',
             mainTitle: 'Made for everyday spending',
             subtitle: 'Practical tools to track expenses without effort.',
             items: [
-                'Full list with recent view',
-                'Categories to stay organized',
-                'Receipt photos attached',
-                'Automatic totals by period',
-                'Custom concepts',
-                'Export whenever you need'
+                'Bar charts and category distribution',
+                'Statistics with totals, averages, and counts',
+                'Filters by date, person, category, and tag',
+                'Receipt photos attached to each expense',
+                'Export your data anytime',
+                'Group by weeks, months, or years'
             ]
         },
         trust: {
@@ -317,7 +361,7 @@ export const LANGUAGES = {
                 },
                 {
                     q: 'How can I export my data?',
-                    a: 'You can export whenever you need from the app.'
+                    a: 'You can export all your expenses from the app at any time. Perfect for tracking in a spreadsheet or doing your accounting.'
                 }
             ]
         },
@@ -330,6 +374,28 @@ export const LANGUAGES = {
             privacy: 'Privacy Policy',
             contact: 'Contact',
             rights: 'All rights reserved.'
+        },
+        screenshots: {
+            sectionTitle: 'See it in action',
+            mainTitle: 'Analyze, filter and export',
+            subtitle: 'Professional tools to understand and control your expenses.',
+            items: [
+                {
+                    title: 'Expense list',
+                    desc: 'All expenses with receipt photos, filters by person and quick search.',
+                    image: '/Expenses.png'
+                },
+                {
+                    title: 'Visual charts',
+                    desc: 'Bar charts by month and category distribution. Understand where your money goes.',
+                    image: '/Charts.png'
+                },
+                {
+                    title: 'Complete statistics',
+                    desc: 'Totals, averages, and counts. Group by weeks, months, or years.',
+                    image: '/Stats.png'
+                }
+            ]
         }
     }
 };
