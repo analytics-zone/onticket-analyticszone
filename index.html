@@ -1,7 +1,4 @@
----
----
-
-<script is:inline>
+<!DOCTYPE html><script>
   (function() {
     const userLang = navigator.language || navigator.userLanguage || 'en';
     const langCode = userLang.toLowerCase().substring(0, 2);
@@ -14,9 +11,4 @@
       window.location.replace('/en/');
     }
   })();
-</script>
-
-<!-- Fallback for users with JS disabled -->
-<noscript>
-  <meta http-equiv="refresh" content="0;url=/en/" />
-</noscript>
+</script> <!-- Fallback for users with JS disabled --><noscript><meta http-equiv="refresh" content="0;url=/en/"></noscript>
