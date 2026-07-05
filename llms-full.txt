@@ -1,0 +1,30 @@
+# OnTicket (Extended LLM Context)
+
+This file provides additional context for language models.
+
+OnTicket is a personal and family expense control and budget tracking app. It allows users to log expenses, scan and attach photos of purchase tickets and receipts, organize transactions by categories, and visualize cash flow with professional monthly charts.
+
+Primary audience: individuals and families looking to control personal finance, track daily expenses, digitize paper receipts, and export transaction histories.
+
+Languages:
+- Català: `/ca/`
+- Español: `/es/`
+- English: `/en/`
+
+## Product features
+
+- Expense registration: Log amount, date, category, tags, and attach a photo of the receipt.
+- Advanced filtering: Search and filter transactions by date ranges, categories, labels, and amounts.
+- Financial analytics: Monthly bar charts and category distribution pie charts.
+- Data export: Export transaction lists in CSV or Excel format for spreadsheet integration.
+- Privacy-first approach: Data is stored securely in Firebase (Google Cloud) with access control and no third-party tracking or advertising.
+
+## Key website pages
+
+- Home: `/ca/` (also `/es/`, `/en/`)
+- Privacy policy: `/ca/privacy/` (also `/es/privacy/`, `/en/privacy/`)
+- Terms of use: `/ca/terms/` (also `/es/terms/`, `/en/terms/`)
+
+## Contact
+
+Email: onticket@onmedic.org
