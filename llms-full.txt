@@ -1,5 +1,8 @@
 # OnTicket (Extended LLM Context)
 
+Canonical site: https://onticket.analyticszone.app/
+Last updated: 2026-07-12
+
 This file provides additional context for language models.
 
 OnTicket is a personal and family expense control and budget tracking app. It allows users to log expenses, scan and attach photos of purchase tickets and receipts, organize transactions by categories, and visualize cash flow with professional monthly charts.
