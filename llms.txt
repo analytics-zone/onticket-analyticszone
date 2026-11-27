@@ -10,15 +10,15 @@ Default routing: browser language when available, fallback to English.
 
 ## Key pages
 
-- Home: `/ca/` (also `/es/`, `/en/`)
-- Privacy policy: `/ca/privacy/` (also `/es/privacy/`, `/en/privacy/`)
-- Terms of use: `/ca/terms/` (also `/es/terms/`, `/en/terms/`)
+- [Home (EN)](https://onticket.analyticszone.app/en/) · [CA](https://onticket.analyticszone.app/ca/) · [ES](https://onticket.analyticszone.app/es/): Main landing page
+- [Privacy policy (EN)](https://onticket.analyticszone.app/en/privacy/) · [CA](https://onticket.analyticszone.app/ca/privacy/) · [ES](https://onticket.analyticszone.app/es/privacy/)
+- [Terms of use (EN)](https://onticket.analyticszone.app/en/terms/) · [CA](https://onticket.analyticszone.app/ca/terms/) · [ES](https://onticket.analyticszone.app/es/terms/)
 
 ## App links
 
-- Google Play: https://play.google.com/store/apps/details?id=com.alarno.onticket
-- App Store: https://apps.apple.com/es/app/onticket/id6478814169
+- [Google Play](https://play.google.com/store/apps/details?id=com.alarno.onticket)
+- [App Store](https://apps.apple.com/es/app/onticket/id6478814169)
 
 ## Extended context
 
-- `/llms-full.txt` provides a longer description of OnTicket features, budgets, data export formats, and security policy.
+- [Full context (`/llms-full.txt`)](https://onticket.analyticszone.app/llms-full.txt): Longer description of OnTicket features, budgets, data export formats, and security policy.
